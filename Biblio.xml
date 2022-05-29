@@ -1,0 +1,63 @@
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Biblio.xsd">
+    <libros>
+        <libro id="L-1234" tipo_clase="novela" cantidad_paginas="100">
+            <titulo>Orgullo y prejuicio</titulo>
+            <indice>
+                Capitulo 1.
+                Capitulo 2.
+                Capitulo 3.
+            </indice>
+            <sinopsis>
+                Con la llegada del rico y apuesto Mr. Darcy a su región, las vidas de los Bennet y sus cinco hijas se vuelven del revés.
+                El orgullo y la distancia social, la astucia y la hipocresía, los malentendidos y los juicios apresurados abocan a sus
+                personajes al escándalo y al dolor, pero también a la comprensión, el conocimiento y el amor verdadero.
+            </sinopsis>
+            <capitulos>
+                <capitulo cantidad_paginas="10">
+                    <titulo_capi> Capitulo 1</titulo_capi>
+                        <contenido enlace="www.enlace.com"></contenido>
+                </capitulo>
+            </capitulos>
+        </libro>
+    </libros>
+
+    <revistas>
+        <revista id="R-1234" tipo_clase="investigacion" num_pags ="60">
+            <titulo_rev>Revista n.5</titulo_rev>
+            <numero_rev>5</numero_rev>
+            <indice_rev>
+                Seccion 1.
+                Seccion 2.
+                Seccion 3.
+            </indice_rev>
+            <secciones>
+                <seccion num_pags="2">
+                    <contenido_rev enlace="www.enlace.com">
+                    </contenido_rev>
+                </seccion>
+            </secciones>
+        </revista>
+    </revistas>
+
+    <periodicos>
+        <periodico id="P-1234" tipo_clase = "internacional" fecha_publ ="2002-09-24">
+            <indice_perio>
+                Seccion 1.
+                Seccion 2.
+                Seccion 3.
+            </indice_perio>
+            <secciones_perio>
+                <seccion_perio tipo_seccion="deportes">
+                    <articulos>
+                        <articulo autor="Miguel Angel García">
+                            <contenido_perio enlace="www.enlace.com">
+                            </contenido_perio>
+                        </articulo>
+                    </articulos>
+                </seccion_perio>
+            </secciones_perio>
+
+        </periodico>
+    </periodicos>
+
+</biblioteca>
